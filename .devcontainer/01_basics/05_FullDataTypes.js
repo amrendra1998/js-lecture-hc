@@ -34,3 +34,29 @@ const myFunction =  function() {
 
 console.log(typeof(myFunction));
 
+// ***************************************************************************************************************
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myyoutubeName = "Amrendrakumar.com"
+let anotheryoutubeName = myyoutubeName
+anotheryoutubeName = "chaiaurcode"
+
+console.log(myyoutubeName);
+console.log(anotheryoutubeName);
+
+
+let UserOne = {
+        email: "user@google.com",
+        upi:"user@ybl"
+}
+
+let UserTwo = UserOne
+
+UserTwo.email = "amrendra.leosysinfotech@gmail.com"
+
+console.log(UserOne.email);
+console.log(UserTwo.email);
+
+
+
