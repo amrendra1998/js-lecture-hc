@@ -26,3 +26,20 @@ if(Object.keys(emptyObject).length === 0) {
 else {
     console.log("Object is not empty");
 }
+
+// nullish coalescing operator(??)
+ let val1;
+//  val1 = 5 ?? 10
+
+//  val1 = null ?? 10
+
+val1 = null ?? 10 ?? 20
+ console.log(val1);
+
+//  Ternary operator
+// condition ? expressionIfTrue : expressionIfFalse;
+
+// Example of Ternary Operator
+const isLoggedIn = true;
+const message = isLoggedIn ? "Welcome back!" : "Please log in.";
+console.log(message); // Output: Welcome back!
