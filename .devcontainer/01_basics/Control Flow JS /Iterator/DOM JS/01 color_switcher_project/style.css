@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #333;
+}
+
+.button {
+  /* display: inline-block; */
+  padding: 10px 68px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, opacity 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Color-specific styles */
+#Grey {
+  background-color: grey;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#Red {
+  background-color: red;
+}
+
+#Yellow {
+  background-color: gold;
+  color: black; /* better contrast */
+}
+
+#Pink {
+  background-color: hotpink;
+}
+
+#Magenta {
+  background-color: magenta;
+}
